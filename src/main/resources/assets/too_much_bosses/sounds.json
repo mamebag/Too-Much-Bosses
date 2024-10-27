@@ -1,0 +1,26 @@
+{
+  "basalt_guardian.insert": {
+    "sounds": [
+      {
+        "name": "too_much_bosses:sfx_mob_rsmonstrositystep-002_soundwave",
+        "stream": false
+      },
+      {
+        "name": "too_much_bosses:sfx_mob_rsmonstrositystep-003_soundwave",
+        "stream": false
+      },
+      {
+        "name": "too_much_bosses:sfx_mob_rsmonstrositystep-004_soundwave",
+        "stream": false
+      }
+    ]
+  },
+  "ice_press": {
+    "sounds": [
+      {
+        "name": "too_much_bosses:bing_mo_fa_2",
+        "stream": false
+      }
+    ]
+  }
+}

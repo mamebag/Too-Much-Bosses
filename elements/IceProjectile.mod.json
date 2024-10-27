@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 1,
+    "entityModel": "Modelsample_block",
+    "customModelTexture": "frosted_ice_layer_0.png",
+    "onHitsBlock": {
+      "name": "IceProjectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "IceProjectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "IceProjectileProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "IceProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

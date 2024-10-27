@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "too_much_bosses:block/ice",
+    "up": "too_much_bosses:block/ice",
+    "north": "too_much_bosses:block/ice",
+    "east": "too_much_bosses:block/ice",
+    "south": "too_much_bosses:block/ice",
+    "west": "too_much_bosses:block/ice",
+    "particle": "too_much_bosses:block/ice"
+  },
+  "render_type": "translucent"
+}

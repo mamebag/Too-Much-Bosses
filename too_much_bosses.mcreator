@@ -1,0 +1,2611 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pakuri",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pakuri",
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "PakuriofwardenAnimation",
+      "type": "code",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pakuriofwarden_animation",
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "TooMuchBossesTab",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "too_much_bosses_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc/Tab"
+    },
+    {
+      "name": "BasaltguardianAttackCondition",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basaltguardian_attack_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BasaltguardianAttackConditionProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Conditions"
+    },
+    {
+      "name": "BasaltGuardian",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_guardian",
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian"
+    },
+    {
+      "name": "BasaltGuardianAnimation",
+      "type": "code",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_guardian_animation",
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "Teest",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/TeestProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "GrowlEffect",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growl_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/GrowlEffectRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/GrowlEffectEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Effects"
+    },
+    {
+      "name": "BGTrapEntity",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bg_trap_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BGTrapEntityRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/BGTrapEntityEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BGflameEffects",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_gflame_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BGflameEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "ClientEvent",
+      "type": "code",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "client_event",
+      "path": "~/Misc/Events/ScreenShaking"
+    },
+    {
+      "name": "BGFlameEntity",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bg_flame_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BGFlameEntityRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/BGFlameEntityEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BGPillarEntity",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bg_pillar_entity",
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BasaltPillarAnimation",
+      "type": "code",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_pillar_animation",
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "BGpoofEffects",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_gpoof_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BGpoofEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BGPoofEntity",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bg_poof_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BGPoofEntityRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/BGPoofEntityEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BGEarthQuakeEntity",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bg_earth_quake_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BGEarthQuakeEntityRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/BGEarthQuakeEntityEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "Spitter",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/SpitterRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/SpitterEntity.java",
+          "src/main/resources/assets/too_much_bosses/models/item/spitter_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss"
+    },
+    {
+      "name": "SpitterAnimation",
+      "type": "code",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spitter_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/SpitterAnimation.java"
+        ]
+      },
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "TheBossClone",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "the_boss_clone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/TheBossCloneEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/TheBossCloneRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/Minion"
+    },
+    {
+      "name": "BGCrackEntity",
+      "type": "livingentity",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bg_crack_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BGCrackEntityRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/BGCrackEntityEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "BGFlamePillar",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bg_flame_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BGFlamePillarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Guardian/Behavior"
+    },
+    {
+      "name": "MakeHostileGoal",
+      "type": "code",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "make_hostile_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/MakeHostileGoal.java"
+        ]
+      },
+      "path": "~/Misc/CustomGoals"
+    },
+    {
+      "name": "IMinion",
+      "type": "code",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_minion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/IMinion.java"
+        ]
+      },
+      "path": "~/Misc/InterFaces"
+    },
+    {
+      "name": "WitheredScout",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "withered_scout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/item/withered_scout_spawn_egg.json",
+          "src/main/java/net/mcreator/toomuchbosses/entity/WitheredScoutEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/WitheredScoutRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Withered Altar/Withered Sorcerer/Minions"
+    },
+    {
+      "name": "WitheredScoutAnimation",
+      "type": "code",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "withered_scout_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/WitheredScoutAnimation.java"
+        ]
+      },
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "MoveAttackGoal",
+      "type": "code",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "move_attack_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/MoveAttackGoal.java"
+        ]
+      },
+      "path": "~/Misc/CustomGoals"
+    },
+    {
+      "name": "BasaltTurret",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_turret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/BasaltTurretEntity.java",
+          "src/main/resources/assets/too_much_bosses/models/item/basalt_turret_spawn_egg.json",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BasaltTurretRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Turret"
+    },
+    {
+      "name": "BasaltTurretAnimation",
+      "type": "code",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basalt_turret_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/BasaltTurretAnimation.java"
+        ]
+      },
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "GlowstoneCharge",
+      "type": "particle",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glowstone_charge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/particles/glowstone_charge.json",
+          "src/main/java/net/mcreator/toomuchbosses/client/particle/GlowstoneChargeParticle.java"
+        ]
+      },
+      "path": "~/Misc/Particles"
+    },
+    {
+      "name": "Glowstonebeam",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glowstonebeam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/GlowstonebeamRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/GlowstonebeamEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Ancient Ruin/Basalt Turret"
+    },
+    {
+      "name": "CrackBlockEffect",
+      "type": "code",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crack_block_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/CrackBlockEffect.java"
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "NumbOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numb_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/NumbOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "Numb",
+      "type": "potioneffect",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/potion/NumbMobEffect.java"
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "Numbothereffects",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numbothereffects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/NumbothereffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "MogiPlayer",
+      "type": "livingentity",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mogi_player",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/item/mogi_player_spawn_egg.json",
+          "src/main/java/net/mcreator/toomuchbosses/entity/MogiPlayerEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/MogiPlayerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "TNTbarrageProjectile",
+      "type": "projectile",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tn_tbarrage_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/TNTbarrageProjectileEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/TNTbarrage"
+    },
+    {
+      "name": "BigTNTProjectile",
+      "type": "projectile",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "big_tnt_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/BigTNTProjectileEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/BigTNTProjectileRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "BigTNTProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_tnt_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BigTNTProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "BigTNTProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_tnt_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BigTNTProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "Anotherexplosion",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anotherexplosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/AnotherexplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "BigTNTProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_tnt_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/BigTNTProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "TNTbarrageProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tn_tbarrage_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/TNTbarrageProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/TNTbarrage"
+    },
+    {
+      "name": "TNTbarrageProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tn_tbarrage_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/TNTbarrageProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/TNTbarrage"
+    },
+    {
+      "name": "TNTbarrageProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tn_tbarrage_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/TNTbarrageProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/TNTbarrage"
+    },
+    {
+      "name": "Hardlysmoke",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardlysmoke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/HardlysmokeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "HeavySmoker",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_smoker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/HeavySmokerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "FrozenWarlock",
+      "type": "livingentity",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frozen_warlock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/FrozenWarlockRenderer.java",
+          "src/main/resources/assets/too_much_bosses/models/item/frozen_warlock_spawn_egg.json",
+          "src/main/java/net/mcreator/toomuchbosses/entity/FrozenWarlockEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark"
+    },
+    {
+      "name": "FrozenWarlockAnimation",
+      "type": "code",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frozen_warlock_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/FrozenWarlockAnimation.java"
+        ]
+      },
+      "path": "~/Misc/Animations"
+    },
+    {
+      "name": "WarlocksIceBlockAdded",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_ice_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksIceBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarlocksIce",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/item/warlocks_ice.json",
+          "src/main/resources/assets/too_much_bosses/blockstates/warlocks_ice.json",
+          "src/main/java/net/mcreator/toomuchbosses/block/WarlocksIceBlock.java",
+          "src/main/resources/assets/too_much_bosses/models/block/warlocks_ice.json",
+          "src/main/resources/data/too_much_bosses/loot_tables/blocks/warlocks_ice.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarlocksIceOnTickUpdate",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_ice_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksIceOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceWallFront",
+      "type": "livingentity",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_wall_front",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/IceWallFrontRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceWallFrontEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Icebreaker",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icebreaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IcebreakerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Iceplacer",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iceplacer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceplacerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FreezeEnemy",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "freeze_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/FreezeEnemyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceWallFrontShootWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_wall_front_shoot_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceWallFrontShootWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceWallFrontShoot",
+      "type": "projectile",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_wall_front_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceWallFrontShootEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WarlocksIceTick",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_ice_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksIceTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceWallFrontBiggerWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_wall_front_bigger_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceWallFrontBiggerWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceWallFrontBigger",
+      "type": "projectile",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_wall_front_bigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceWallFrontBiggerEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Everfrost",
+      "type": "particle",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "everfrost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/particles/everfrost.json",
+          "src/main/java/net/mcreator/toomuchbosses/client/particle/EverfrostParticle.java"
+        ]
+      },
+      "path": "~/Misc/Particles"
+    },
+    {
+      "name": "EverfrostpotionOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everfrostpotion_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/EverfrostpotionOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "Everfrostpotion",
+      "type": "potioneffect",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everfrostpotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/potion/EverfrostpotionMobEffect.java"
+        ]
+      },
+      "path": "~/Misc/OtherEffects"
+    },
+    {
+      "name": "IceTrapShootWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_trap_shoot_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceTrapShootWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceTrapShoot",
+      "type": "projectile",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_trap_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceTrapShootEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WarlocksTowerIceBlockAdded",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_tower_ice_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksTowerIceBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarlocksTowerIce",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_tower_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/block/warlocks_tower_ice.json",
+          "src/main/resources/assets/too_much_bosses/blockstates/warlocks_tower_ice.json",
+          "src/main/java/net/mcreator/toomuchbosses/block/WarlocksTowerIceBlock.java",
+          "src/main/resources/data/too_much_bosses/loot_tables/blocks/warlocks_tower_ice.json",
+          "src/main/resources/assets/too_much_bosses/models/item/warlocks_tower_ice.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeaviestSmoker",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaviest_smoker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/HeaviestSmokerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/Summoned Mobs/The Boss/BigTNT"
+    },
+    {
+      "name": "MayhemMakerEntityDies",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mayhem_maker_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/MayhemMakerEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "MayhemMaker",
+      "type": "livingentity",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mayhem_maker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/item/mayhem_maker_spawn_egg.json",
+          "src/main/java/net/mcreator/toomuchbosses/entity/MayhemMakerEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/MayhemMakerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "MayhemMakerOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mayhem_maker_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/MayhemMakerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "ModdedRavagerDead",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_ravager_dead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/ModdedRavagerDeadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "ModdedMobTicks",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_mob_ticks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/ModdedMobTicksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "IcePotion",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_potion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/too_much_bosses/models/item/ice_potion.json",
+          "src/main/java/net/mcreator/toomuchbosses/item/IcePotionItem.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WarlocksSnowEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_snow_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksSnowEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarlocksSnow",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_snow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/too_much_bosses/loot_tables/blocks/warlocks_snow.json",
+          "src/main/java/net/mcreator/toomuchbosses/block/WarlocksSnowBlock.java",
+          "src/main/resources/assets/too_much_bosses/models/item/warlocks_snow.json",
+          "src/main/resources/assets/too_much_bosses/models/block/warlocks_snow.json",
+          "src/main/resources/assets/too_much_bosses/blockstates/warlocks_snow.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarlocksSnowBlockAdded",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlocks_snow_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WarlocksSnowBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IcePikes",
+      "type": "livingentity",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_pikes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IcePikesEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/IcePikesRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IcePikesOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_pikes_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IcePikesOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WaterPotionWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_potion_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WaterPotionWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WaterPotion",
+      "type": "projectile",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/WaterPotionEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IcePikesOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_pikes_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IcePikesOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WaterPotionProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_potion_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WaterPotionProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "WaterPotionProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_potion_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/WaterPotionProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IcepoofMaker",
+      "type": "livingentity",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icepoof_maker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IcepoofMakerEntity.java",
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/IcepoofMakerRenderer.java",
+          "src/main/resources/data/too_much_bosses/forge/biome_modifier/icepoof_maker_biome_modifier.json",
+          "src/main/resources/assets/too_much_bosses/models/item/icepoof_maker_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Poofimpact",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poofimpact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/PoofimpactProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceRushWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_rush_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceRushWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Icelast",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icelast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IcelastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceRush",
+      "type": "projectile",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_rush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceRushEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "ModdedCreeperManDontHurt",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_creeper_man_dont_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/ModdedCreeperManDontHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "Skeletondead",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletondead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/SkeletondeadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Non-Structure Mobs/TestMobs"
+    },
+    {
+      "name": "IcerushthemostWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icerushthemost_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IcerushthemostWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Icerushthemost",
+      "type": "projectile",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "icerushthemost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/entity/IcerushthemostEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "Snowplacer",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowplacer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/SnowplacerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/IceProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "IceProjectile",
+      "type": "projectile",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ice_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/client/renderer/IceProjectileRenderer.java",
+          "src/main/java/net/mcreator/toomuchbosses/entity/IceProjectileEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    },
+    {
+      "name": "LiftIce",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lift_ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/toomuchbosses/procedures/LiftIceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Icy Landmark/Icemakers"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "isShooting",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "shootX",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "shootY",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "shootZ",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "doesShooting",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "shootBX",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "shootBY",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "shootBZ",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "basalt_guardian.insert",
+      "files": [
+        "sfx_mob_rsmonstrositystep-002_soundwave",
+        "sfx_mob_rsmonstrositystep-003_soundwave",
+        "sfx_mob_rsmonstrositystep-004_soundwave"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ice_press",
+      "files": [
+        "bing_mo_fa_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "entity.too_much_bosses.basalt_guardian": "Basalt Guardian",
+      "entity.too_much_bosses.mogi_player": "Player Clone",
+      "effect.too_much_bosses.everfrostpotion": "Everfrost",
+      "item.too_much_bosses.bg_pillar_entity_spawn_egg": "PillarEntity Spawn Egg",
+      "item.too_much_bosses.mogi_player_spawn_egg": "MogiPlayer Spawn Egg",
+      "entity.too_much_bosses.growl_effect": "Growl Effect",
+      "entity.too_much_bosses.ice_wall_front": "Ice Wall Front",
+      "entity.too_much_bosses.bg_trap_entity": "BGTrapEntity",
+      "item.too_much_bosses.pakuri_spawn_egg": "Pakuri of Warden Spawn Egg",
+      "itemGroup.tabtoo_much_bosses_tab": "Too Much Bosses Tab",
+      "item.too_much_bosses.the_boss_clone_spawn_egg": "The Boss Clone Spawn Egg",
+      "item.too_much_bosses.bg_crack_entity_spawn_egg": "BG Crack Entity Spawn Egg",
+      "entity.too_much_bosses.bg_earth_quake_entity": "BGEarthQuakeEntity",
+      "item_group.too_much_bosses.too_much_bosses_tab": "Too Much Bosses Tab",
+      "item.too_much_bosses.withered_scout_spawn_egg": "Withered Scout Spawn Egg",
+      "item.too_much_bosses.frozen_warlock_spawn_egg": "Frozen Warlock Spawn Egg (wip)",
+      "block.too_much_bosses.warlocks_ice": "Warlocks Ice",
+      "block.too_much_bosses.warlocks_snow": "Warlock\u0027s Snow",
+      "entity.too_much_bosses.icepoof_maker": "Icepoof Maker",
+      "item.too_much_bosses.bg_earth_quake_entity_spawn_egg": "BGEarthQuakeEntity Spawn Egg",
+      "item.too_much_bosses.mayhem_maker_spawn_egg": "Mayhem Maker Spawn Egg",
+      "entity.too_much_bosses.bg_flame_entity": "BG Flame Entity",
+      "entity.too_much_bosses.glowstonebeam": "Glowstone Beam",
+      "entity.too_much_bosses.spitter": "The Boss",
+      "entity.too_much_bosses.ice_pikes": "Ice Pikes",
+      "entity.too_much_bosses.frozen_warlock": "Frozen Warlock",
+      "entity.too_much_bosses.bg_pillar_entity": "PillarEntity",
+      "subtitles.basalt_guardian.insert": "",
+      "item.too_much_bosses.spitter_spawn_egg": "The Boss Spawn Egg",
+      "entity.too_much_bosses.bg_poof_entity": "BG Poof Entity",
+      "subtitles.ice_press": "",
+      "entity.too_much_bosses.basalt_turret": "Basalt Turret",
+      "block.too_much_bosses.warlocks_tower_ice": "Warlocks Tower Ice",
+      "item.too_much_bosses.icepoof_maker_spawn_egg": "Icepoof Maker Spawn Egg",
+      "entity.too_much_bosses.pakuri": "Pakuri of Warden",
+      "entity.too_much_bosses.mayhem_maker": "The Mayhem Maker",
+      "item.too_much_bosses.basalt_guardian_spawn_egg": "Basalt Guardian Spawn Egg",
+      "entity.too_much_bosses.the_boss_clone": "The Boss Clone",
+      "entity.too_much_bosses.withered_scout": "Withered Scout",
+      "item.too_much_bosses.basalt_turret_spawn_egg": "Basalt Turret Spawn Egg",
+      "item.too_much_bosses.ice_potion": "Ice Potion",
+      "effect.too_much_bosses.numb": "Numb",
+      "entity.too_much_bosses.bg_crack_entity": "BG Crack Entity"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Ancient Ruin",
+            "children": [
+              {
+                "name": "Basalt Guardian",
+                "children": [
+                  {
+                    "name": "Conditions",
+                    "children": []
+                  },
+                  {
+                    "name": "Behavior",
+                    "children": []
+                  },
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Basalt Turret",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Withered Altar",
+            "children": [
+              {
+                "name": "Withered Sorcerer",
+                "children": [
+                  {
+                    "name": "Minions",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Icy Landmark",
+            "children": [
+              {
+                "name": "Icemakers",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Non-Structure Mobs",
+            "children": [
+              {
+                "name": "Humanity",
+                "children": [
+                  {
+                    "name": "Angry Mechanic",
+                    "children": []
+                  },
+                  {
+                    "name": "Originator",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Summoned Mobs",
+                "children": [
+                  {
+                    "name": "Nightmare",
+                    "children": []
+                  },
+                  {
+                    "name": "The Boss",
+                    "children": [
+                      {
+                        "name": "TNTbarrage",
+                        "children": []
+                      },
+                      {
+                        "name": "BigTNT",
+                        "children": []
+                      },
+                      {
+                        "name": "Minion",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pumpkin Scarecrow",
+                    "children": []
+                  },
+                  {
+                    "name": "Herobrine",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "TestMobs",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "Tab",
+            "children": []
+          },
+          {
+            "name": "Events",
+            "children": [
+              {
+                "name": "ScreenShaking",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Animations",
+            "children": []
+          },
+          {
+            "name": "CustomGoals",
+            "children": []
+          },
+          {
+            "name": "InterFaces",
+            "children": []
+          },
+          {
+            "name": "Particles",
+            "children": []
+          },
+          {
+            "name": "OtherEffects",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "too_much_bosses",
+    "modName": "Too Much Bosses",
+    "version": "1.0.0",
+    "author": "Cookie5w, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.toomuchbosses"
+  },
+  "mcreatorVersion": 202400118518
+}

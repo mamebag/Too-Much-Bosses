@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 0.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsPlayer": {
+      "name": "Icelast"
+    },
+    "onHitsEntity": {
+      "name": "Icelast"
+    },
+    "onFlyingTick": {
+      "name": "IceRushWhileProjectileFlyingTick"
+    }
+  }
+}

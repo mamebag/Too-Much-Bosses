@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.TNT"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.firework.launch"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 1,
+    "entityModel": "Modelsample_block",
+    "customModelTexture": "tnt_1.png",
+    "onHitsBlock": {
+      "name": "BigTNTProjectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "BigTNTProjectileProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "BigTNTProjectileProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "BigTNTProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

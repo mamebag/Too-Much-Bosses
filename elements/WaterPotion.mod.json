@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:IcePotion"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 0.0,
+    "damage": 1.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "WaterPotionProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "WaterPotionProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "WaterPotionWhileProjectileFlyingTick"
+    }
+  }
+}
